@@ -34,8 +34,7 @@ function onOpenModal(evt) {
    }
    instance = basicLightbox.create(`
    <img
-          src="${evt.target.dataset.source}"
-          alt="${evt.target.alt}"
+          src="${evt.target.dataset.source}" width="1400" height="900">
         />
 `);
 instance.show();
